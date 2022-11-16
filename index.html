@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Awesome Books</div>
+      <ul class="nav-list">
+        <li class="nav-link" id="list-link">List</li>
+        <li class="nav-link">&#124;</li>
+        <li class="nav-link" id="add-new-link">Add New</li>
+        <li class="nav-link">&#124;</li>
+        <li class="nav-link" id="contact-link">Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <div id="date" class="date"></div>
+      <section class="list">
+        <div class="header">
+          <h1>All Awesome Books</h1>
+        </div>
+        <div class="book-list" id="book-list"></div>
+      </section>
+      <section class="add-book">
+        <div class="book">
+          <h2 class="add-book-title">Add a new book</h2>
+          <input
+            type="text"
+            placeholder="Title"
+            class="book-title"
+            name="book-title"
+          />
+          <input
+            type="text"
+            placeholder="Author"
+            class="author"
+            name="author"
+          />
+          <div class="button-container">
+            <button type="button" class="add-button">Add</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact-container">
+          <div class="contact-header">
+            <h2>Contact Information</h2>
+          </div>
+          <div class="contact-body">
+            <p>
+              Do you have any questions or you just want to say &#34;Hello&#34;?
+              You can reach out to me!
+            </p>
+            <ul class="contact-list">
+              <li class="contact-list-item">My email: alierpm2022@gmail.com</li>
+              <li class="contact-list-item">My phone number: +201155541126</li>
+              <li class="contact-list-item">My address: Cairo, Egypt</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>Copyright &copy; Alier Philip Maguet</footer>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
