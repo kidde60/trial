@@ -1,0 +1,13 @@
+@import "variables";
+@import "breakpoints";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Put your SCSS below, remember to compile it into CSS(your can use a vs code plugin called "live sass")
+
+//Note: don't write scss for something that can be accomplished using bootstrap
